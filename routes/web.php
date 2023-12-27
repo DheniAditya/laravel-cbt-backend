@@ -29,9 +29,9 @@ Route::middleware(['auth'])->group(function () {
 //     return view('pages.auth.login');
 // })->name('login');
 
-// Route::get('/register', function () {
-//     return view('pages.auth.register');
-// })->name('register');
+Route::get('/register', function () {
+    return view('pages.auth.register');
+})->name('register');
 
 // Route::get('/users', function () {
 //     return view('pages.users.index');
