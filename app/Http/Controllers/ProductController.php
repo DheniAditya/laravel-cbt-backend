@@ -31,7 +31,7 @@ class ProductController extends Controller
 
     public function store(StoreUserRequest $request)
     {
-
+        return view('pages.products.create');
     }
 
     public function edit($id)
