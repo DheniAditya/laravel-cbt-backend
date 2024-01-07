@@ -83,11 +83,11 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <label>Category</label>
-                                <input type="text" class="form-control" name="category">
+                                <label>Stock</label>
+                                <input type="number" class="form-control" name="stock">
                             </div>
                             <div class="form-group">
-                                <label class="form-label">Roles</label>
+                                <label class="form-label">Category</label>
                                 <div class="selectgroup w-100">
                                     <label class="selectgroup-item">
                                         <input type="radio" name="roles" value="Food" class="selectgroup-input"

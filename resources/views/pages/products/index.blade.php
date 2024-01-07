@@ -82,7 +82,7 @@
                                                 <td>
                                                     {{ $product->price }}
                                                 </td>
-                                                <td>{{ $product->Category }}</td>
+                                                <td>{{ $product->category }}</td>
                                                 <td>
                                                     <div class="d-flex justify-content-center">
                                                         <a href='{{ route('product.edit', $product->id) }}'

@@ -15,7 +15,7 @@ class ProductController extends Controller
     {
 
         // $users = \App\Models\User::paginate(10);
-        $products = DB::table('product_name')
+        $products = DB::table('products')
             ->when($request->input('product_name'), function ($query, $name) {
                 return $query->where('product_name', 'like', '%' . $name . '%');
             })
